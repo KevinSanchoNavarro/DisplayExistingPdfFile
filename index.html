@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- PDF.js viewer CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.10.111/pdf_viewer.min.css" />
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+        
+    <!-- <br> <br>
+    <h1>Methods to display an existing pdf file</h1>
+    <br> <br>
+
+    <h2>Using html &lt;iframe&gt;</h2>
+    <iframe src="pdf-open-parameters.pdf" width="100%" height="600px"></iframe>
+    <br> <br>
+
+    <h2>Using html &lt;embed&gt;</h2>
+    <embed src="pdf-open-parameters.pdf" type="application/pdf" width="100%" height="600px" />
+    <br> <br>     -->
+
+    <!-- <h2>Using PDF.js and &lt;canvas&gt;</h2>
+    <div>
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+        &nbsp; &nbsp;
+        <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+    </div> -->
+<!-- 
+    <canvas id="the-canvas"></canvas>
+    <br> <br> -->
+
+    <!-- <h2>Using html &lt;object&gt;</h2>
+    <object data="pdf-open-parameters.pdf" type="application/pdf" width="100%" height="600px">
+        <p>PDF cannot be displayed. <a href="pdf-open-parameters.pdf">Download PDF</a></p>
+     </object> -->
+
+     <!-- <h2>Using PDF.js and &lt;canvas&gt;  - Version 02</h2> -->
+     <div>
+        <button onclick="zoomOut()">➖ Zoom Out</button>
+        <button onclick="zoomIn()">➕ Zoom In</button>
+        <button onclick="prevPage()">⬅️ Previous</button>
+        <span>Page: <span id="page_num">1</span> / <span id="page_count">?</span></span>
+        <button onclick="nextPage()">➡️ Next</button>
+        <button onclick="downloadPDF()">⬇️ Download</button>
+      </div>
+      
+      <canvas id="pdf-canvas" style="width: 100%; border: 1px solid black;"></canvas>
+
+    <!-- <script src="https://cdnjs.com/libraries/pdf.js"></script> -->
+    <!-- <script src="https://mozilla.github.io/pdf.js/build/pdf.mjs" type="module"></script> -->
+
+    <!-- PDF.js viewer JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.10.111/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.10.111/pdf_viewer.min.js"></script>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

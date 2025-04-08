@@ -1,0 +1,9 @@
+#the-canvas {
+    border: 1px solid black;
+    direction: ltr;
+}
+
+iframe, embed, object {
+    width: 100%;
+    max-width: 1000px;
+}
