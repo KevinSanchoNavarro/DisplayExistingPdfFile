@@ -5,7 +5,7 @@ let url = 'https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compres
       pageNum = 1,
       pageRendering = false,
       pageNumPending = null,
-      scale = 1.8,
+      scale = 4,
       canvas = document.getElementById('pdf-canvas'),
       ctx = canvas.getContext('2d');
 
