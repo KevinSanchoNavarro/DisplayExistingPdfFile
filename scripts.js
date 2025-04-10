@@ -1,5 +1,6 @@
 
-let url = 'https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf'; // Replace with your PDF file URL
+// let url = 'https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf'; // Replace with your PDF file URL
+  let url = './fw4.pdf'; // Replace with your PDF file URL
 
   let pdfDoc = null,
       pageNum = 1,
